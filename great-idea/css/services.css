@@ -1,0 +1,74 @@
+html{
+  display: flex;
+  justify-content: center;
+}
+a{
+    text-emphasis: bold;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+#top-bar {
+display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  color: whitesmoke;
+  width: 800px;
+}
+.topPic{
+ width: 800px;
+ height: 200px;
+}
+.boxes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-top: 40px;
+border-top: solid black 3px;
+border-bottom: solid black 3px;
+align-content: center;
+width: 800px;
+}
+.codes {
+  width: 800px;
+}
+
+button {
+height: 40px;
+width: 110px;
+background-color: white;
+margin: 10px;
+border: 1px solid black;
+}
+.item{
+background: lightgrey;
+border: 3px solid;
+border-color: black;
+width: 35%;
+margin-top: 20px;
+margin-bottom: 40px;
+padding: 15px;
+}
+
+.learn {
+    padding: 20px;
+}
+.facts{
+display: flex;
+justify-content: flex-start;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+padding: 30px;
+}
+.services-info-img{
+width: 280px;
+}
+footer {
+display: flex;
+justify-content: center;
+}
+.bottom {
+  width: 800px;
+}
